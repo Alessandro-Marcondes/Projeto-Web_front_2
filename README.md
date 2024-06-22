@@ -7,6 +7,7 @@ O projeto visa contribuir com a ODS13, com a criação de um site para conscient
 ## Tecnologias
 * HTML5
 * CSS3
+* JavaScript
 
 ## Hospedagem
-https://alessandro-marcondes.github.io/Projeto_WebFront/
+https://alessandro-marcondes.github.io/Projeto_Web_Front_2/
