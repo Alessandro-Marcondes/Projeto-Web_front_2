@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela de Cadastro</title>
+    <link rel="stylesheet" href="css/style_form.css">
+</head>
+
+
+<body>
+
+    <header>
+        <nav class="navbar">
+            <div class="logo"><a href="index.html"><img src="public/icon/world_white.svg" alt="icone_planeta">  ODS 13</a></div>
+        </nav>
+    </header>
+
+    <div class="container_form">
+        <div class="cadastro_form">
+            <form action="index.html">
+                <h1>Cadastro</h1>
+                <div class="form_interno">
+                    <input class="input_icon input_nome" type="text" placeholder="Nome" name="email" required>
+                    <label></label>
+                </div>
+                <div class="form_interno">
+                    <input class="input_icon input_telefone" type="tel" placeholder="(xx)xxxx-xxxx" name="phone" pattern="\(\d{2}\)\d{4,5}-\d{4}$"
+                        required>
+                    <label></label>
+                </div>
+                <div class="form_interno">
+                    <input class="input_icon input_email" type="email" placeholder="Email" name="email" required>
+                    <label></label>
+                </div>
+                <div class="form_interno">
+                    <input class="input_icon input_senha" type="password" placeholder="Senha" name="password" required>
+                    <label></label>
+                </div>
+                <div class="form_interno">
+                    <input class="input_icon input_senha2" type="password" placeholder="Insira sua senha novamente" name="password_verify" required>
+                    <label></label>
+                </div>
+                <button class="button button_cinza">Cadastrar</button>
+            </form>
+
+            <div class="overlay_container">
+                <div class="overlay overlay_left">
+                    <div class="overlay_painel">
+                        <h1>Já possui uma conta?</h1>
+                        <p>Faça seu login clicando no botão abaixo</p>
+                        <a href="login.html" class="button button_branco">Login</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

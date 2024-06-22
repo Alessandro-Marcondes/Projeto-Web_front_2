@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela de Cadastro</title>
+    <link rel="stylesheet" href="css/style_admin.css">
+</head>
+
+
+<body>
+
+    <header>
+        <nav class="navbar">
+            <div class="logo"><a href="index.html"><img src="public/icon/world_white.svg" alt="icone_planeta"> ODS
+                    13</a></div>
+        </nav>
+    </header>
+
+    <div class="form">
+        <h1>Lista de usuários</h2>
+        <input type="text" id="username" class="input_icon input_email" placeholder="Nome de Usuário">
+        <input type="password" id="password" class="input_icon input_senha" placeholder="Senha">
+
+        <div class="buttons">
+            <button onclick="addUsuario()">Adicionar</button>
+            <button onclick="limparCampos()">Limpar Campos</button>
+            <button onclick="limparUsuarios()">Limpar Todos os Itens</button>
+        </div>
+    </div>
+
+    <div class="search">
+        <input type="text" id="procurar" class="input_icon input_search" placeholder="Pesquisar...">
+        <button onclick="busca()">Pesquisar</button>
+        <button onclick="limparBusca()">Limpar Pesquisa</button>
+    </div>
+
+    <ul id="itemLista">
+    </ul>
+    <script src="/Js/script.js"></script>
+</body>
+
+</html>
